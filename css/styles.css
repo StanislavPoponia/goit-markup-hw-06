@@ -76,7 +76,10 @@ img{ display: block;}
 .header-menu {
   display: block;
   padding: 24px 0;
-  text-decoration: none
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
   }
 
   .current {
@@ -92,9 +95,8 @@ position: relative;
     background-color: #404BBF;
     width: 100%;
     height: 4px;
-    bottom: 0;
-
-  }
+    border-radius: 2px;
+    bottom: 0; }
 
 .header-menu:hover,
 .header-menu:focus {
@@ -126,7 +128,10 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455; }
+color: #434455;
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: linear; }
 
 .tel{ margin-right: 0;}
 
@@ -193,6 +198,12 @@ color: #FFFFFF;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+}
+
+.button, .button-hero{
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
 }
 
 /* advances */
@@ -346,6 +357,9 @@ border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
 }
 
 .personal-social :hover,
@@ -394,7 +408,10 @@ color: #2E2F42;
   display: flex;
   align-items: center;
   justify-content: center;
-  color:#8E8F99;}
+  color:#8E8F99;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;}
 
   .customers-link:hover,
   .customers-link:focus{
@@ -597,7 +614,10 @@ color: #FFFFFF;
     border-radius: 50%;
       display: flex;
       justify-content: center;
-      align-items: center;}
+      align-items: center;
+      transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;}
 
       .footer-link:hover,
       .footer-link:focus{
@@ -646,7 +666,10 @@ background-color: #FCFCFC;}
   padding: 0;
   background-color: #E7E9FC;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  cursor: pointer;}
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;}
 
   .button-backdrop:hover,
   .button-backdrop:focus{
