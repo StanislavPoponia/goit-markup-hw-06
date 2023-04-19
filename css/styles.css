@@ -1,8 +1,5 @@
 :root
 
-h2{
-  margin-bottom: 72px;
-}
 h3,
 h4,
 h5,
@@ -267,6 +264,7 @@ border-radius: 4px;
 
 .works{
   margin: 0;
+  margin-bottom: 72px;
  font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -292,6 +290,7 @@ color: #2E2F42;
 
 .our-team {
   margin: 0;
+  margin-bottom: 72px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -377,6 +376,7 @@ color: #2E2F42;
 
 .customers-title{
   margin: 0;
+  margin-bottom: 72px;
   display: block;
   text-align: center;
 }
