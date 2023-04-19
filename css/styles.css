@@ -616,7 +616,7 @@ color: #FFFFFF;
 height: 100%;
 background-color: rgba(46, 47, 66, 0.4);
 transition-property: opacity, visibility;
-transition-duration: 500ms;
+transition-duration: 250ms;
 transition-timing-function: linear;
 }
 
