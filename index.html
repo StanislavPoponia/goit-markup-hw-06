@@ -550,7 +550,70 @@
             <use href="./images/icons.svg#icon-closebutton"></use>
           </svg>
         </button>
-        <p>content</p>
+
+        <strong class="modal-strong"
+          >Leave your contacts and we will call you back</strong
+        >
+        <form class="modal-form" action="modal-form" name="contacts-form">
+          <div class="modal-slide">
+            <label class="label" for="name_person"> Name</label>
+            <input
+              class="input"
+              type="text"
+              name="name_person"
+              id="name_person"
+            />
+            <svg class="modal-svg" width="18" height="18">
+              <use href="./images/icons.svg#icon-personsvg"></use>
+            </svg>
+          </div>
+
+          <div class="modal-slide">
+            <label class="label" for="phone_person">Phone</label>
+            <input
+              class="input"
+              type="tel"
+              name="phone_person"
+              id="phone_person"
+            />
+            <svg class="modal-svg" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+
+          <div class="modal-slide">
+            <label class="label" for="email_person">Email</label>
+            <input
+              class="input"
+              type="email"
+              name="email_person"
+              id="email_person"
+            />
+            <svg class="modal-svg" width="18" height="18">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+
+          <div class="modal-slide">
+            <label class="label" for="Comment"></label>
+            <textarea
+              class="textarea"
+              name="Comment_user"
+              id="Comment"
+              rows="10"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <label class="modal-checkbox" for="">
+            <input class="checkbox" type="checkbox" name="checkbox-personal" />
+            <span class="span-text"
+              >I accept the terms and conditions of the
+              <a class="span-link" href="">Privacy Policy</a>
+            </span>
+          </label>
+
+          <button class="modal-button button-hero" type="submit">Send</button>
+        </form>
       </div>
     </div>
 

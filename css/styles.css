@@ -676,3 +676,116 @@ background-color: #FCFCFC;}
     fill: #FFFFFF;
     background-color: #404BBF;
   }
+
+
+  /* Slide paig */
+
+  .modal-strong{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
+
+    .modal-slide{ 
+      position: relative;
+      margin-bottom: 8px;}
+
+.label{display: block;
+margin-bottom: 4px;
+font-size: 12px;
+line-height: 1.1;
+letter-spacing: 0.04em;
+color: #8E8F99;
+cursor: pointer;}
+
+.input{
+   width: 100%;
+   height: 40px;
+   padding: 0 38px;
+   outline: transparent;
+   border: 1px solid rgba(46, 47, 66, 0.4);
+   border-radius: 4px;
+   transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: linear;}
+
+   .input:hover,
+   .input:focus{
+    border: 1px solid #4D5AE5;}
+
+    .input:hover,
+    .input:focus + .modal-svg {
+      fill:#4D5AE5;}
+
+     .modal-svg{
+       position: absolute;
+         bottom: 11px;
+          left: 16px;
+           pointer-events: none;
+           transition-property: fill;
+           transition-duration: 250ms;
+           transition-timing-function: linear;
+          fill: #FFFFFF;}
+
+
+
+
+  .textarea{
+      resize: none;
+      width: 100%;
+      height: 120px;
+      padding: 8px 16px;
+      font-size: 12px;
+      line-height: 1.1;
+      letter-spacing: 0.04em;
+      color: #8E8F99;
+      outline: transparent;
+      border: 1px solid rgba(46, 47, 66, 0.4);
+      border-radius: 4px;
+      transition-property: border;
+      transition-duration: 250ms;
+      transition-timing-function: linear;}
+
+      .textarea:hover,
+      .textarea:focus{
+        border: 1px solid #4D5AE5;}
+
+        .modal-checkbox{display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 24px;
+          gap: 8px;}
+
+        .span-text{
+           font-size: 12px;
+           line-height: 1.1px;
+           letter-spacing: 0.04em;
+           color: #8E8F99;}
+
+           .span-link{
+            color: #4D5AE5;
+            text-decoration: underline;}
+           
+           
+            .checkbox{
+              appearance: none;
+              width: 16px;
+              height: 16px;
+              border: 1px solid rgba(46, 47, 66, 0.4);
+              border-radius: 2px;
+              transition-property: background-color, border;
+              transition-duration: 250ms;
+              transition-timing-function: linear;
+              background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cpath d='M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z' fill='%23fff' /%3E%3C/svg%3E");
+              background-size: 12px 12px;
+              background-position: center;
+               background-repeat: no-repeat;}
+              
+
+              .checkbox:checked{
+                background-color: #404BBF;
+                border:#404BBF; }
