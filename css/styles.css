@@ -682,7 +682,14 @@ color: #FFFFFF;
                 border: 1px solid #FFFFFF;
                 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
                 border-radius: 4px;
-                }
+              
+                transition-property: border-color ;
+                transition-duration: 250ms;
+                transition-timing-function: linear;}
+
+                .footer-input:hover, 
+                .footer-input:focus{
+                  border-color: #404BBF;}
 
        .backdrop{
         position: fixed;
