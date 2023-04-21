@@ -588,10 +588,11 @@ color: #F4F4FD;
  }
 
  .footer-logo{
-  margin-right: 120px
- }
+  margin-right: 120px}
 
- 
+  .footer-media{
+    margin-right: 80px;
+  }
 
 .footer-title{
 font-weight: 500;
@@ -630,9 +631,7 @@ color: #FFFFFF;
 
 
     /* subcribe */
-    .footer-subscribe{
-      margin-left: 70px;
-    }
+   
 
     .text-subscribe{
          font-weight: 500;
@@ -649,7 +648,6 @@ color: #FFFFFF;
                 display: flex;
                 justify-content: space-evenly;
                 align-items: center;
-              margin-left: 24px ;
               width: 165px;
               height: 40px;
               background: #4d5ae5;
@@ -675,14 +673,16 @@ color: #FFFFFF;
                  fill: #FFFFFF;}
  
                .footer-input{
+                margin-right: 24px;
                 height: 40px;
                 padding: 8px 16px;
                 outline: transparent;
-                background-color: #2E2F42;
+                background-color: transparent;
+                color: #FFFFFF;
                 border: 1px solid #FFFFFF;
                 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
                 border-radius: 4px;
-                color: #FFFFFF;}
+                }
 
        .backdrop{
         position: fixed;
