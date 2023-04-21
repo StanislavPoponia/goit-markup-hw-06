@@ -648,7 +648,15 @@ color: #FFFFFF;
            font-size: 12px;
            line-height: 1.5;
            letter-spacing: 0.04em;
-           color: #FFFFFF;}
+           color: #FFFFFF;
+           transition-property: color ;
+           transition-duration: 250ms;
+           transition-timing-function: linear;}
+
+           .footer-input:focus::placeholder,
+           .footer-input:hover::placeholder{
+            color: #404BBF;
+           }
 
                .button-footer{
                 display: flex;
