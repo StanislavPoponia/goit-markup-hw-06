@@ -688,6 +688,7 @@ color: #FFFFFF;
  
                .footer-input{
                 margin-right: 24px;
+                width: 264px;
                 height: 40px;
                 padding: 8px 16px;
                 outline: transparent;
