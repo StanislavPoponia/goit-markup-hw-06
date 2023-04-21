@@ -644,6 +644,12 @@ color: #FFFFFF;
          .button-email{display: flex;
         align-items: center;}
 
+        .footer-input::placeholder{
+           font-size: 12px;
+           line-height: 1.5;
+           letter-spacing: 0.04em;
+           color: #FFFFFF;}
+
                .button-footer{
                 display: flex;
                 justify-content: space-evenly;
